@@ -1,4 +1,9 @@
+import java.time.LocalDate;
+
 public class Person {
+
+    public Person(String name, Sex sex, String emailAddress) {
+    }
 
     public enum Sex {
         MALE, FEMALE

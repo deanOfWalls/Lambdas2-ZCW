@@ -1,9 +1,11 @@
+import org.junit.jupiter.api.Test;
+
 import java.util.List;
 
 public interface CheckPerson {
 
-
-    public static void printPersons(List<Person> ) {
+@Test
+    public void printPersons(List<Person> ) {
 
     }
 }
